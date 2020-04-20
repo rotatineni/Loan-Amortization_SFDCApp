@@ -1,0 +1,1055 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>This object is created as a Part of &quot;Loan Forgivness Tool&quot;</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Company_Code__c</fullName>
+        <externalId>false</externalId>
+        <label>Company Code</label>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>7000</fullName>
+                    <default>false</default>
+                    <label>7000</label>
+                </value>
+                <value>
+                    <fullName>7010</fullName>
+                    <default>false</default>
+                    <label>7010</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Department_Code__c</fullName>
+        <externalId>false</externalId>
+        <label>Department Code</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>2000</fullName>
+                    <default>false</default>
+                    <label>2000</label>
+                </value>
+                <value>
+                    <fullName>2650</fullName>
+                    <default>false</default>
+                    <label>2650</label>
+                </value>
+                <value>
+                    <fullName>2841</fullName>
+                    <default>false</default>
+                    <label>2841</label>
+                </value>
+                <value>
+                    <fullName>2842</fullName>
+                    <default>false</default>
+                    <label>2842</label>
+                </value>
+                <value>
+                    <fullName>2843</fullName>
+                    <default>false</default>
+                    <label>2843</label>
+                </value>
+                <value>
+                    <fullName>2844</fullName>
+                    <default>false</default>
+                    <label>2844</label>
+                </value>
+                <value>
+                    <fullName>2845</fullName>
+                    <default>false</default>
+                    <label>2845</label>
+                </value>
+                <value>
+                    <fullName>2846</fullName>
+                    <default>false</default>
+                    <label>2846</label>
+                </value>
+                <value>
+                    <fullName>2847</fullName>
+                    <default>false</default>
+                    <label>2847</label>
+                </value>
+                <value>
+                    <fullName>2848</fullName>
+                    <default>false</default>
+                    <label>2848</label>
+                </value>
+                <value>
+                    <fullName>2849</fullName>
+                    <default>false</default>
+                    <label>2849</label>
+                </value>
+                <value>
+                    <fullName>2850</fullName>
+                    <default>false</default>
+                    <label>2850</label>
+                </value>
+                <value>
+                    <fullName>2851</fullName>
+                    <default>false</default>
+                    <label>2851</label>
+                </value>
+                <value>
+                    <fullName>2947</fullName>
+                    <default>false</default>
+                    <label>2947</label>
+                </value>
+                <value>
+                    <fullName>2948</fullName>
+                    <default>false</default>
+                    <label>2948</label>
+                </value>
+                <value>
+                    <fullName>3220</fullName>
+                    <default>false</default>
+                    <label>3220</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Firm_Revenue_Based_Loan__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Firm Revenue Based Loan ?</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Firms_Current_Year_Revenue__c</fullName>
+        <externalId>false</externalId>
+        <label>Firm&apos;s Current Year Revenue</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Firms_Prior_Year_Revenue__c</fullName>
+        <externalId>false</externalId>
+        <label>Firm&apos;s Prior Year Revenue</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Interest_Forgiven__c</fullName>
+        <description>Interest Forgiven till date since loan inception</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Interest Forgiven till date since loan inception</inlineHelpText>
+        <label>Interest Forgiven</label>
+        <precision>12</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Issuing_Company__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL(Company_Code__c,&apos;7000&apos;),&apos;ABC,Inc.&apos;,&apos;XYZ,LLC.&apos;)</formula>
+        <label>Issuing Company</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Legacy_LoanID__c</fullName>
+        <description>This is to denote the Legacy LoanID from the Spreadsheet that Finance/Accounting used prior to this tool.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This is to denote the Legacy LoanID from the Spreadsheet</inlineHelpText>
+        <label>Legacy LoanID</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>Loan_Description__c</fullName>
+        <externalId>false</externalId>
+        <label>Loan Description</label>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>HB</fullName>
+                    <default>false</default>
+                    <label>HB</label>
+                </value>
+                <value>
+                    <fullName>HB Retention</fullName>
+                    <default>false</default>
+                    <label>HB Retention</label>
+                </value>
+                <value>
+                    <fullName>KS Retention Bonus</fullName>
+                    <default>false</default>
+                    <label>KS Retention Bonus</label>
+                </value>
+                <value>
+                    <fullName>Kingfisher Retention</fullName>
+                    <default>false</default>
+                    <label>Kingfisher Retention</label>
+                </value>
+                <value>
+                    <fullName>KSWS</fullName>
+                    <default>false</default>
+                    <label>KSWS</label>
+                </value>
+                <value>
+                    <fullName>Recruiting</fullName>
+                    <default>false</default>
+                    <label>Recruiting</label>
+                </value>
+                <value>
+                    <fullName>WWM Acquisition</fullName>
+                    <default>false</default>
+                    <label>ABC Acquisition</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Loan_Effective_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Loan Effective Date</label>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Loan_End_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Loan End Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Loan_Interest_Rate__c</fullName>
+        <externalId>false</externalId>
+        <label>Loan Interest Rate</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Loan_Payment_Date__c</fullName>
+        <description>Field to capture the date a particular Loan was paid by ABC to the Rep.</description>
+        <externalId>false</externalId>
+        <label>Loan Payment Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Loan_Schedules_Created__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This is System field, not visible to the user..Checked True when Loan Schedules are created and to prevent duplicates</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This is System field, not visible to the user..Checked True when Loan Schedules are created and to prevent duplicates</inlineHelpText>
+        <label>Loan Schedules Created ?</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Loan_Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Loan Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Open</fullName>
+                    <default>true</default>
+                    <label>Open</label>
+                </value>
+                <value>
+                    <fullName>Outstanding</fullName>
+                    <default>false</default>
+                    <label>Outstanding</label>
+                </value>
+                <value>
+                    <fullName>Complete</fullName>
+                    <default>false</default>
+                    <label>Complete</label>
+                </value>
+                <value>
+                    <fullName>Termed</fullName>
+                    <default>false</default>
+                    <label>Termed</label>
+                </value>
+                <value>
+                    <fullName>Obsolete</fullName>
+                    <default>false</default>
+                    <label>Obsolete</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Loan_Term_In_Years__c</fullName>
+        <externalId>false</externalId>
+        <label>Loan Term (In Years)</label>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>1</fullName>
+                    <default>false</default>
+                    <label>1</label>
+                </value>
+                <value>
+                    <fullName>2</fullName>
+                    <default>false</default>
+                    <label>2</label>
+                </value>
+                <value>
+                    <fullName>3</fullName>
+                    <default>false</default>
+                    <label>3</label>
+                </value>
+                <value>
+                    <fullName>4</fullName>
+                    <default>false</default>
+                    <label>4</label>
+                </value>
+                <value>
+                    <fullName>5</fullName>
+                    <default>false</default>
+                    <label>5</label>
+                </value>
+                <value>
+                    <fullName>6</fullName>
+                    <default>false</default>
+                    <label>6</label>
+                </value>
+                <value>
+                    <fullName>7</fullName>
+                    <default>false</default>
+                    <label>7</label>
+                </value>
+                <value>
+                    <fullName>8</fullName>
+                    <default>false</default>
+                    <label>8</label>
+                </value>
+                <value>
+                    <fullName>9</fullName>
+                    <default>false</default>
+                    <label>9</label>
+                </value>
+                <value>
+                    <fullName>10</fullName>
+                    <default>false</default>
+                    <label>10</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Loan_Term__c</fullName>
+        <externalId>false</externalId>
+        <label>Loan Term (In Months)</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Loan_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Loan Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>AUM</fullName>
+                    <default>false</default>
+                    <label>AUM</label>
+                </value>
+                <value>
+                    <fullName>ABCD - No Target</fullName>
+                    <default>false</default>
+                    <label>KPWS- No Target</label>
+                </value>
+                <value>
+                    <fullName>Target</fullName>
+                    <default>false</default>
+                    <label>Target</label>
+                </value>
+                <value>
+                    <fullName>Time</fullName>
+                    <default>false</default>
+                    <label>Time</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Netsuite_Vendor_Id__c</fullName>
+        <externalId>false</externalId>
+        <label>NetSuite Vendor Id</label>
+        <length>20</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Original_Loan_Amount__c</fullName>
+        <externalId>false</externalId>
+        <label>Original Loan Amount</label>
+        <precision>14</precision>
+        <required>true</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Principal_Forgiven__c</fullName>
+        <description>Principal Forgiven till date since loan inception</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Principal Forgiven till date since loan inception</inlineHelpText>
+        <label>Principal Forgiven</label>
+        <precision>12</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Recruited_Revenue__c</fullName>
+        <description>Collected by Recruiting team in Loan Agreement</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Collected by Recruiting team in Loan Agreement</inlineHelpText>
+        <label>Recruited Revenue</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Recruited__c</fullName>
+        <externalId>false</externalId>
+        <label>Recruited ?</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Rep_Code__c</fullName>
+        <externalId>false</externalId>
+        <formula>Rep_Name__r.Rep_Number__c</formula>
+        <inlineHelpText>Display&apos;s only Primary Rep Code from the Rep associated.</inlineHelpText>
+        <label>Rep Code(Primary)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rep_Entity_Id__c</fullName>
+        <externalId>false</externalId>
+        <formula>Rep_Name__r.EntityID__c</formula>
+        <label>Rep&apos;s Entity Id</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rep_Firm_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>Rep_Name__r.Account.Name</formula>
+        <label>Rep&apos;s Firm Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rep_Name__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <description>Look up to Contact filtered by Active Firm Rep</description>
+        <externalId>false</externalId>
+        <label>Rep Name</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Loans</relationshipLabel>
+        <relationshipName>Loans</relationshipName>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Rep_Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Rep&apos;s Status</label>
+        <length>20</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rep_Termed_Date__c</fullName>
+        <description>To Populate Date when Loan Is being Termed</description>
+        <externalId>false</externalId>
+        <label>Rep Termed Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Reps_Current_Year_Revenue__c</fullName>
+        <externalId>false</externalId>
+        <formula>Rep_Name__r.Current_YTD_GDC__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Rep&apos;s Current Year Revenue</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Reps_Prior_Year_Revenue__c</fullName>
+        <externalId>false</externalId>
+        <formula>Rep_Name__r.Prior_Year_GDC__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Rep&apos;s Prior Year Revenue</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Termed_Total_Balance_Due__c</fullName>
+        <externalId>false</externalId>
+        <label>Termed Total Balance Due</label>
+        <precision>12</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Total_Forgiven__c</fullName>
+        <description>Principal Forgiven + Interest Forgiven</description>
+        <externalId>false</externalId>
+        <formula>Principal_Forgiven__c  +  Interest_Forgiven__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Principal Forgiven + Interest Forgiven</inlineHelpText>
+        <label>Total Forgiven</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Total_Interest__c</fullName>
+        <externalId>false</externalId>
+        <label>Total Interest</label>
+        <summarizedField>Loan_Schedule__c.Interest__c</summarizedField>
+        <summaryForeignKey>Loan_Schedule__c.Loan__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <label>Loan</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Legacy_LoanID__c</columns>
+        <columns>Department_Code__c</columns>
+        <columns>Rep_Name__c</columns>
+        <columns>Rep_Firm_Name__c</columns>
+        <columns>Rep_Code__c</columns>
+        <columns>Loan_Status__c</columns>
+        <columns>Original_Loan_Amount__c</columns>
+        <columns>Loan_Effective_Date__c</columns>
+        <columns>Loan_End_Date__c</columns>
+        <columns>Loan_Term__c</columns>
+        <columns>Loan_Interest_Rate__c</columns>
+        <columns>Loan_Schedules_Created__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Loan_Status__c</field>
+            <operation>notEqual</operation>
+            <value>Obsolete</value>
+        </filters>
+        <label>All</label>
+    </listViews>
+    <listViews>
+        <fullName>All1</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <displayFormat>L-{000000}</displayFormat>
+        <label>Loan ID</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Loans</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>Rep_Name__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Rep_Firm_Name__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Rep_Code__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Loan_Status__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Original_Loan_Amount__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Loan_Effective_Date__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Loan_End_Date__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Loan_Term__c</customTabListAdditionalFields>
+        <excludedStandardButtons>OpenListInQuip</excludedStandardButtons>
+        <excludedStandardButtons>MassChangeOwner</excludedStandardButtons>
+        <excludedStandardButtons>ChangeOwner</excludedStandardButtons>
+        <excludedStandardButtons>Accept</excludedStandardButtons>
+        <lookupDialogsAdditionalFields>Rep_Name__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Rep_Firm_Name__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Rep_Code__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Loan_Status__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Original_Loan_Amount__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Loan_Effective_Date__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Loan_End_Date__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Loan_Term__c</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Rep_Name__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Rep_Firm_Name__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Rep_Code__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Loan_Status__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Original_Loan_Amount__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Loan_Effective_Date__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Loan_End_Date__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Loan_Term__c</lookupPhoneDialogsAdditionalFields>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchFilterFields>Rep_Name__c</searchFilterFields>
+        <searchFilterFields>Rep_Firm_Name__c</searchFilterFields>
+        <searchFilterFields>Rep_Code__c</searchFilterFields>
+        <searchFilterFields>Loan_Status__c</searchFilterFields>
+        <searchFilterFields>Original_Loan_Amount__c</searchFilterFields>
+        <searchFilterFields>Loan_Effective_Date__c</searchFilterFields>
+        <searchFilterFields>Loan_End_Date__c</searchFilterFields>
+        <searchFilterFields>Loan_Term__c</searchFilterFields>
+        <searchResultsAdditionalFields>Rep_Name__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Rep_Firm_Name__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Rep_Code__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Loan_Status__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Original_Loan_Amount__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Loan_Effective_Date__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Loan_End_Date__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Loan_Term__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Loan_Type__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Private</sharingModel>
+    <validationRules>
+        <fullName>Interest_Forgiven_Currency_Validation</fullName>
+        <active>true</active>
+        <description>Interest_Forgiven_Currency_Validation to be greater than $0 when not blank.</description>
+        <errorConditionFormula>AND(
+NOT(ISBLANK(Interest_Forgiven__c)),
+Interest_Forgiven__c&lt; 1
+)</errorConditionFormula>
+        <errorDisplayField>Interest_Forgiven__c</errorDisplayField>
+        <errorMessage>Interest Forgiven must always be greater than $0</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Loan_Amount_Currency_Validation</fullName>
+        <active>true</active>
+        <description>Loan_Amount_currency_validation</description>
+        <errorConditionFormula>AND(
+NOT(ISBLANK(Original_Loan_Amount__c)),
+Original_Loan_Amount__c &lt; 1
+)</errorConditionFormula>
+        <errorDisplayField>Original_Loan_Amount__c</errorDisplayField>
+        <errorMessage>Loan Amount must always be greater than $0</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Loan_Interest_must_be_greater_than_0</fullName>
+        <active>true</active>
+        <description>Loan Interest Rate must be greater than 0%</description>
+        <errorConditionFormula>Loan_Interest_Rate__c   &lt;= 0</errorConditionFormula>
+        <errorDisplayField>Loan_Interest_Rate__c</errorDisplayField>
+        <errorMessage>Loan Interest Rate must be greater than 0%</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Populate_Loan_Termed_Date</fullName>
+        <active>true</active>
+        <description>When Termed is selected in Status, Rep termed Date needs to be populated.</description>
+        <errorConditionFormula>AND(ISPICKVAL(Loan_Status__c,&apos;Termed&apos;),
+ISNULL(Rep_Termed_Date__c))</errorConditionFormula>
+        <errorMessage>Please fill in Rep Termed Date when Terminating the Loan.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Principal_Forgiven_Currency_Validation</fullName>
+        <active>true</active>
+        <description>Principal_Forgiven_Currency_Validation to be greater than $0 when not blank.</description>
+        <errorConditionFormula>AND(
+NOT(ISBLANK(Principal_Forgiven__c)),
+Principal_Forgiven__c &lt; 1
+)</errorConditionFormula>
+        <errorDisplayField>Principal_Forgiven__c</errorDisplayField>
+        <errorMessage>Principal Forgiven must always be greater than $0</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Restrict_edits_post_Schedule_creation</fullName>
+        <active>true</active>
+        <description>Restrict edits to fields on the Loan Object once Loan Schedules have been created.</description>
+        <errorConditionFormula>AND(
+Loan_Schedules_Created__c,
+OR(ISCHANGED(Rep_Name__c),
+ISCHANGED(Netsuite_Vendor_Id__c),
+ISCHANGED(Original_Loan_Amount__c),
+ISCHANGED(Loan_Interest_Rate__c),
+ISCHANGED(Loan_Effective_Date__c),
+ISCHANGED(Loan_Term__c),
+ISCHANGED(Loan_Type__c)
+)
+)</errorConditionFormula>
+        <errorMessage>No more edits permitted since Schedules have been generated. Please contact System Administrator</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Termed_Total_Currency_Validation</fullName>
+        <active>true</active>
+        <description>Termed_Total_Currency_Validation to be greater than $0 when not blank.</description>
+        <errorConditionFormula>AND(
+NOT(ISBLANK(Termed_Total_Balance_Due__c)),
+Termed_Total_Balance_Due__c&lt; 1
+)</errorConditionFormula>
+        <errorDisplayField>Termed_Total_Balance_Due__c</errorDisplayField>
+        <errorMessage>Termed Total Balance Due must always be greater than $0</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>Create_Loan_Schedules</fullName>
+        <availability>online</availability>
+        <description>This will execute code to create Loan Schedules.</description>
+        <displayType>button</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Create Loan Schedules</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <url>{!REQUIRESCRIPT(&apos;/soap/ajax/45.0/connection.js&apos;)}
+
+var Status = &quot;{!Loan__c.Loan_Status__c}&quot;;
+var ConStat = &quot;{!Loan__c.Rep_Status__c}&quot;;
+var userId = &quot;{!$User.Id}&quot;;
+var result = sforce.connection.query( 
+              &quot;SELECT Id &quot; + 
+              &quot;FROM PermissionSetAssignment &quot; + 
+              &quot;WHERE PermissionSetId = &apos;0PS4A000000Drdc&apos; &quot; + 
+              &quot;AND AssigneeId =&apos;{!$User.Id}&apos;&quot;
+               ); 
+var psAssignment = result.getArray(&quot;records&quot;); 
+
+{!REQUIRESCRIPT(&apos;/js/functions.js&apos;)} 
+{!REQUIRESCRIPT(&apos;/resource/jQueryForPopup/jQuery/jquery-1.8.2.min.js&apos;)} 
+{!REQUIRESCRIPT(&apos;/resource/jQueryForPopup/jQuery/ui/jquery-ui-1.9.1.custom.min.js&apos;)}
+
+{!REQUIRESCRIPT(&apos;/resource/jQueryForPopup/jQuery/postmessage/jquery.ba-postmessage.js&apos;)} 
+{!REQUIRESCRIPT(&apos;/resource/jQueryForPopup/jQuery/bbq/jquery.ba-bbq.min.js&apos;)} 
+requireCssFile(&apos;/resource/jQueryForPopup/jQuery/ui/css/ui-lightness/jquery-ui-1.9.1.custom.min.css&apos;); 
+function requireCssFile(filename) 
+{ 
+var fileref = document.createElement(&apos;link&apos;);
+fileref.setAttribute(&apos;rel&apos;, &apos;stylesheet&apos;);
+fileref.setAttribute(&apos;type&apos;, &apos;text/css&apos;);
+fileref.setAttribute(&apos;href&apos;, filename);
+document.getElementsByTagName(&apos;head&apos;)[0].appendChild(fileref);
+} 
+var j$ = jQuery.noConflict();
+var recId = window.location.href.substring(window.location.href.lastIndexOf(&apos;/&apos;) + 1);
+var iframe_url = &apos;/apex/LoanForgiveness_Schedule_PopUp?id=&apos; + recId;
+var child_domain = iframe_url.substring(0, iframe_url.indexOf(&apos;/&apos;, 9));
+var parent_domain = window.location.protocol + &apos;//&apos; + window.location.host;
+var j$modalDialog = j$(&apos;&lt;div id=&quot;opppopup&quot;&gt;&lt;/div&gt;&apos;)
+.html(&apos;&lt;iframe id=&quot;iframeContentId&quot; src=&quot;&apos; + iframe_url + &apos;&quot; frameborder=&quot;0&quot; height=&quot;100%&quot; width=&quot;100%&quot; marginheight=&quot;0&quot; marginwidth=&quot;0&quot; scrolling=&quot;no&quot; /&gt;&apos;) 
+.dialog({ 
+autoOpen:false, 
+title:&apos;LOAN AMORTIZATION &apos;, 
+resizable:true, 
+width:1000, 
+height:540, 
+autoResize:true, 
+modal: true, 
+draggable: true 
+});
+j$(&quot;.ui-dialog-titlebar&quot;).css({&quot;background&quot;: &quot;#AE5B2E&quot;, &quot;border&quot;: &quot;none&quot;}); 
+
+if(Status != &apos;Open&apos;){ 
+    alert(&apos;Loan Schedules can only be created when Loan Status is Open&apos;); 
+}
+else if(psAssignment.length == 0 &amp;&amp; &quot;{!$Profile.Name}&quot; != &apos;System Administrator&apos;){ 
+alert(&apos;You do not have permissions to generate Loan Schedules&apos;); 
+window.location.reload(); 
+} 
+else if(ConStat != &apos;Active&apos;){ 
+    alert(&apos;Rep related to this Loan is Not Active to generate Schedules&apos;); 
+    window.location.reload(); 
+}
+else{ 
+    j$modalDialog.dialog(&apos;open&apos;);
+}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Term_calc</fullName>
+        <availability>online</availability>
+        <description>For Termed Rep Calculation</description>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Term Calc</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>{!Loan__c.Link}</url>
+    </webLinks>
+</CustomObject>

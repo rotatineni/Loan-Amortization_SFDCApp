@@ -1,0 +1,82 @@
+<apex:page controller="LoanForgiveness_ScheduleController" sidebar="false" showHeader="false" docType="html-5.0" lightningstylesheets="true">         
+  <apex:pagemessages id="showmsg"/>
+  <apex:outPutPanel id="scriptPanel">
+     <script>       
+       function cancel(){
+         //alert('{!isError}');
+           if({!isError} == false){
+            window.top.location.href="/{!cid}";
+          }
+        }
+        function cancel1(){
+           window.top.location.href="/{!cid}";            
+        }
+      </script>
+        
+    </apex:outPutPanel>
+    <apex:form styleClass="ash_gray">
+        
+        <apex:pageBlock >
+            <apex:repeat value="{!loanRecord}" var="loan"> 
+                <table width="85%"  cellspacing="0" border="1" style="margin-left:6%;">
+                    <tr style="font-weight: Arial">
+                        <th style="text-align:center;width:20px;height:30px">Loan Amount</th>
+                        <th style="text-align:center;width:20px;height:30px">Loan Interest Rate</th>
+                        <th style="text-align:center;width:20px;height:30px">Loan Term(In Months)</th>
+                        <th style="text-align:center;width:20px;height:30px">Loan Start Date</th>
+                        <th style="text-align:center;width:20px;height:30px">Loan End Date</th>
+                    </tr>  
+                    <tr>
+                        <td style="text-align:center;width:20px;height:30px"><apex:outputField value="{!loan.Original_Loan_Amount__c}" /></td>
+                        <td style="text-align:center;width:20px;height:30px"><apex:outputField value="{!loan.Loan_Interest_Rate__c}"/> </td>
+                        <td style="text-align:center;width:20px;height:30px"><apex:outputField value="{!loan.Loan_Term__c}"/></td>
+                        <td style="text-align:center;width:20px;height:30px"><apex:outputtext value="{0,date,MM/dd/yyyy}"><apex:param value="{!loan.Loan_Effective_Date__c}"/></apex:outputtext></td>
+                        <td style="text-align:center;width:20px;height:30px"><apex:outputtext value="{0,date,MM/dd/yyyy}"><apex:param value="{!loan.Loan_End_Date__c}"/></apex:outputtext></td> 
+                    </tr>
+                </table>
+            </apex:repeat><br/>
+            <apex:pageBlock id="pb1">
+                <table width="100%" border="1" cellspacing="0" style="margin-left:0%;margin-right:4%;" id="tableid">
+                    <tr style="font-weight: Arial">
+                        <th style="text-align:center;width:4%;height:30px">Year</th>
+                        <th style="text-align:center;width:15%;height:30px">Beginning Balance</th>
+                        <th style="text-align:center;width:15%;height:30px">Amortization %</th>
+                        <th style="text-align:center;width:12%;height:30px">Yearly Principal</th>
+                        <th style="text-align:center;width:12%;height:30px">Yearly Interest</th>
+                        <th style="text-align:center;width:12%;height:30px">Yearly Payment</th>  
+                        <th style="text-align:center;width:15%;height:30px">Ending Balance</th>              
+                        <th style="text-align:center;width:15%;height:30px">Target Revenue($)</th>
+                    </tr>
+                    <apex:repeat value="{!wrapLoanList}" var="wrap">
+                        <tr style="font-weight: Arial">
+                            <td style="text-align:center;width:4%;height:30px">{!wrap.Year}</td>
+                            <td style="text-align:center;width:15%;height:30px">${!wrap.BeginningBalance}</td>
+                            <td style="text-align:center;width:15%;height:30px"><apex:input value="{!wrap.Amortization}" type="auto">
+                                <apex:actionSupport action="{!calculateYearlyPrincipal}" status="inputActionStatus" event="onchange" reRender="pb1">
+                                    <apex:param name="yearValue" value="{!wrap.Year}"/>
+                                    <apex:param name="amortization" value="{!wrap.Amortization}"/>
+                                </apex:actionSupport>    
+                                </apex:input>
+                                <b><font color="red">{!wrap.errorMesg}</font></b>
+                                <b><font color="red">{!wrap.totalPercntErrorMesg}</font></b>
+                            </td>
+                            <td style="text-align:center;width:12%;height:30px">${!wrap.YearlyPrincipal}</td>
+                            <td style="text-align:center;width:12%;height:30px">${!wrap.YearInterest}</td>
+                            <td style="text-align:center;width:12%;height:30px">${!wrap.YearPayment}</td>
+                            <td style="text-align:center;width:15%;height:30px">${!wrap.EndingBalance}</td>
+                            <td style="text-align:center;width:15%;height:30px"><apex:input value="{!wrap.TargetRevenue}" type="auto">
+                                <apex:actionSupport action="{!validateTargetRevenue}" status="inputActionStatus" event="onchange" reRender="pb1">
+                                    <apex:param name="yearValue" value="{!wrap.Year}"/>
+                                </apex:actionSupport>
+                                </apex:input>
+                                <b><font color="red">{!wrap.taregetErrorMesg}</font></b>
+                            </td>
+                        </tr>
+                    </apex:repeat>
+                </table>
+            </apex:pageBlock> 
+            <center> <apex:commandButton action="{!submitButton}" value="Submit"  oncomplete="cancel();" disabled="{!if(loanRecord.Loan_Schedules_Created__c==false,false,true)}" reRender="showmsg,scriptPanel" />                     
+                <apex:commandButton value="Cancel" onclick="cancel1();" /></center>
+        </apex:pageBlock> 
+    </apex:form>
+</apex:page>

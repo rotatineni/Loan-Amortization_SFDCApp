@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>true</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>This object holds the 1099 information for each year for a loan</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Amortization__c</fullName>
+        <externalId>false</externalId>
+        <label>Amortization %</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Beginning_Balance__c</fullName>
+        <externalId>false</externalId>
+        <label>Beginning Balance</label>
+        <precision>12</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Ending_Balance__c</fullName>
+        <externalId>false</externalId>
+        <label>Ending Balance</label>
+        <precision>12</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Is_Past_year__c</fullName>
+        <externalId>false</externalId>
+        <formula>YEAR(X1099_Year__c) &lt; YEAR(Today())</formula>
+        <label>Is Past Year?</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Loan__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Related Loan</inlineHelpText>
+        <label>Loan</label>
+        <referenceTo>Loan__c</referenceTo>
+        <relationshipLabel>Loan 1099s</relationshipLabel>
+        <relationshipName>Loan_1099s</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Rep_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>Loan__r.Rep_Name__r.FirstName +&apos; &apos;+ Loan__r.Rep_Name__r.LastName</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Rep Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>X1099_Interest__c</fullName>
+        <externalId>false</externalId>
+        <label>1099 Interest</label>
+        <precision>8</precision>
+        <required>true</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>X1099_Principal__c</fullName>
+        <externalId>false</externalId>
+        <label>1099 Principal</label>
+        <precision>14</precision>
+        <required>true</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>X1099_Year__c</fullName>
+        <description>This field is used to track the Year in date Format for reporting. Update this to default value for a year based on &apos;1099 for Year&apos; field.</description>
+        <externalId>false</externalId>
+        <formula>DATE(VALUE(X1099_for_Year__c),01,01)</formula>
+        <label>1099 Year</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>X1099_for_Year__c</fullName>
+        <description>This field is updated by the WF Rule when value present in &apos;1099 for Year of(Sys)&apos; field else User can input a year which will stay on the record.</description>
+        <externalId>false</externalId>
+        <label>1099 for Year</label>
+        <length>4</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>X1099_for_Year_of__c</fullName>
+        <description>This field is used by the code to set the increment number that is used by the &apos;X1099_for_Year_of__c&apos; formula field</description>
+        <externalId>false</externalId>
+        <label>1099 for Year of(Sys)</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <label>Loan 1099</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <displayFormat>1099-{00000000}</displayFormat>
+        <label>1099 Id</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Loan 1099s</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>Beginning_Balance_Currency_Validation</fullName>
+        <active>true</active>
+        <description>Beginning_Balance_Currency_Validation</description>
+        <errorConditionFormula>AND(
+NOT(ISBLANK(Beginning_Balance__c)),
+Beginning_Balance__c &lt; 1
+)</errorConditionFormula>
+        <errorDisplayField>Beginning_Balance__c</errorDisplayField>
+        <errorMessage>Beginning Balance must always be greater than $0</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Currency_must_be_greater_than_0</fullName>
+        <active>false</active>
+        <description>Currency_Fields_must_be_greater_than_$0 to save the record</description>
+        <errorConditionFormula>OR(X1099_Interest__c &lt; 1,
+X1099_Principal__c &lt; 1,
+Beginning_Balance__c &lt; 1,
+Ending_Balance__c &lt; 1
+)</errorConditionFormula>
+        <errorMessage>Currency inputs must always be greater than $0</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Ending_Balance_Currency_Validation</fullName>
+        <active>false</active>
+        <description>Ending_Balance_Currency_Validation</description>
+        <errorConditionFormula>AND(
+NOT(ISBLANK(Ending_Balance__c)),
+Ending_Balance__c &lt; 1
+)</errorConditionFormula>
+        <errorDisplayField>Ending_Balance__c</errorDisplayField>
+        <errorMessage>Ending Balance must always be greater than $0</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Interest_Currency_Validation</fullName>
+        <active>true</active>
+        <description>1099_Interest_Currency_Validation</description>
+        <errorConditionFormula>AND(
+NOT(ISBLANK(X1099_Interest__c)),
+X1099_Interest__c &lt; 1
+)</errorConditionFormula>
+        <errorDisplayField>X1099_Interest__c</errorDisplayField>
+        <errorMessage>1099 Interest must always be greater than $0</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Principal_Currency_Validation</fullName>
+        <active>true</active>
+        <description>1099_Principal_Currency_Validation</description>
+        <errorConditionFormula>AND(
+NOT(ISBLANK(X1099_Principal__c)),
+X1099_Principal__c &lt; 1
+)</errorConditionFormula>
+        <errorDisplayField>X1099_Principal__c</errorDisplayField>
+        <errorMessage>1099 Principal must always be greater than $0</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>
